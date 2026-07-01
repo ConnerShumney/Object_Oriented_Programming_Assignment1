@@ -1,0 +1,12 @@
+public class TicketCalculator{
+    public static void main(String[] args) {
+        Int numberOfTickets = input.nextInt();
+
+        int TicketPrice = 15;
+
+        int totalCost = numberOfTickets * TicketPrice;
+
+        System.out.println("Total cost: $" + totalCost);
+        System.out.println("Enjoy the event!");
+    }
+}
